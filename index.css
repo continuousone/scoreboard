@@ -1,16 +1,21 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
 }
 
 .container {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
+    align-items: start;
     width: 575px;
-    height: 385px;
-    background-color: #1B244A;
-    margin-top: 100px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
 
 h3{
@@ -37,6 +42,19 @@ h3{
     align-items: center;
 }
 
+.lakers{
+    display: flex;
+
+    background-image: url("lakers.png");
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size:30%;
+    margin: 50 auto;
+    background-position: center;
+    
+}
+
 
 .button-row{
     display: flex;
@@ -51,13 +69,23 @@ h3{
    height: 45px;
    border-radius: 5px; 
    font-size:18px;
-   background-color: #1B244A;
-   border: 2px solid #9aabd8;
-   color:#9aabd8;
+   background-color: goldenrod;
+   border: 2px solid white;
+   color:blueviolet;
     margin-top: 30px;
    margin-left: 5px;
    font-family: 'Cursed Timer ULiL', sans-serif;
-   
 
+}
+.button:hover{
+    color:whitesmoke;
+    background-color: gray
+}
+
+#logo{
+    display:flex;
+    width: 200px;
+    margin: 100px auto;
+    
 
 }
